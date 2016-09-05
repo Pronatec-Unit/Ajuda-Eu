@@ -10,4 +10,4 @@ Aplicativo criado com a finalidade de auxiliar pessoas que necessitam de serviç
 ## cronograma
 Data | Atividade
 ---------|----------
-05/08/2016 Entrega do wireframe (telas)
+05/08/2016 | Entrega do wireframe (telas)
