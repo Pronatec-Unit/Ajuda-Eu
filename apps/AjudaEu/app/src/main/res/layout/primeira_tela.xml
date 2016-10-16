@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/primeira_tela"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="themilks.com.ajudaeu.primeiratela">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ol_para_registrar_se_clique_em_cadastro_e_aproveite_os_nossos_servi_os_ou_se_quiser_apenas_navegar_clique_em_visitar"
+        android:textSize="19dp"
+        tools:ignore="SpUsage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="75dp" />
+
+    <Button
+        android:text="Visitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:id="@+id/botaoA"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="125dp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="Cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:id="@+id/botaoB"
+        tools:ignore="HardcodedText"
+        android:layout_alignBottom="@+id/botaoA"
+        android:layout_toEndOf="@+id/botaoA"
+        android:layout_alignTop="@+id/botaoA" />
+</RelativeLayout>
