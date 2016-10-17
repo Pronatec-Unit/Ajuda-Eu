@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class primeiratela extends AppCompatActivity {
     Button botaoA;
+    Button botaoB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,10 +21,17 @@ public class primeiratela extends AppCompatActivity {
             public void onClick(View v) {
                 Intent tela= new Intent(primeiratela.this, segundatela.class);
                 startActivity(tela);
-                finish();
             }
         });
 
+        botaoB= (Button) findViewById(R.id.botaoB);
+        botaoB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent entrar= new Intent(primeiratela.this, cadastrotela.class);
+                startActivity(entrar);
+            }
+        });
 
     }
 }

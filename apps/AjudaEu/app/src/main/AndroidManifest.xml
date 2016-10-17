@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".segundatela"></activity>
+        <activity android:name=".segundatela" />
+        <activity android:name=".cadastrotela"></activity>
     </application>
 
 </manifest>
